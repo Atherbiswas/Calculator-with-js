@@ -1,0 +1,58 @@
+/* heading style part */
+h1{
+    color: aqua;
+    font-size: 50px;
+    text-align: center;
+}
+/* paragraph style part  */
+p{
+    text-align: center;
+}
+/* main table part style  */
+table{
+    border: 3px solid black;
+    margin: auto;
+}
+/* input type button style part  */
+input[type="button"]{
+    width: 100%;
+    height: 70px;
+    padding: 20px 40px;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+/* input type text style part  */
+input[type="text"]{
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+/* responsive design */
+@media screen and (max-width:668px) {
+    table{
+        border: 3px solid black;
+        margin: auto;
+    }
+    input[type="button"]{
+        width: 100%;
+        height: 70px;
+        padding: 20px 40px;
+        background-color: cornflowerblue;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+    }
+    p{
+        text-align: center;
+    }
+    
+}

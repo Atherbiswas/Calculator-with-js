@@ -1,6 +1,6 @@
 /* heading style part */
 h1{
-    color: aqua;
+    color: #B9005B;
     font-size: 50px;
     text-align: center;
 }
@@ -24,6 +24,12 @@ input[type="button"]{
     font-weight: bold;
     border: none;
     border-radius: 5px;
+}
+#btn-clear{
+    background-color:  #F01600;
+}
+#btn-solve{
+    background-color: #25DB72;
 }
 /* input type text style part  */
 input[type="text"]{
